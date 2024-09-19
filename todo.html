@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Kartheek !!</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <button id="addTaskBtn">Add Task</button>
+        <div class="filters">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+            <button class="filter-btn" data-filter="uncompleted">Uncompleted</button>
+        </div>
+        <label for="darkModeToggle">Dark Mode</label>
+        <input type="checkbox" id="darkModeToggle">
+        <ul id="taskList"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
